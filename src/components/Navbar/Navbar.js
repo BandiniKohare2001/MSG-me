@@ -1,4 +1,4 @@
-import Imgwhatsapp from "./../Navbar/Navbar-Image/whatsapp.png";
+
 import Imgsearch from "./../Navbar/Navbar-Image/search.png";
 import Imgmenu from "./../Navbar/Navbar-Image/menu.png";
 
@@ -9,7 +9,7 @@ export default function Navbar() {
    return (
       <div className="nav-container">
 
-         <img src={Imgwhatsapp} alt="searchicon" className="img-1" />
+       <h1> MSG-me</h1>
          <div className="menu-item">
             <img src={Imgsearch} alt="searchicon" className="icon" />
             <img src={Imgmenu} alt="searchicon" className="icon" />
