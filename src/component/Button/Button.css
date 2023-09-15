@@ -1,0 +1,10 @@
+
+
+.btn-1{
+    background-color: #19c44d;
+  padding:5%;
+  padding-inline: 1rem;
+  border-radius: 5px;
+  border:none;
+  box-shadow: 0px 1px 1px 1px rgb(71, 70, 70);
+}
