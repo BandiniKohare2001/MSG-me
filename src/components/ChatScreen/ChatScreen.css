@@ -6,3 +6,6 @@
     height: 437px;
     width: 70%;
 }
+.main-container{
+    display: flex;
+}
