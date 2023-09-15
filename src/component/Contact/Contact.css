@@ -1,0 +1,33 @@
+.main-card-container
+{
+    border: px solid  grey;
+    /* height: 100px; */
+    width: 350px;
+   height: 90px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.main-card-container:hover{
+    background-color: rgb(211, 211, 211);
+}
+/* .main-container
+{
+    display: flex;
+    flex-direction: row;
+} */
+.user-img
+{
+    height: 60px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+ .img-container
+{
+    padding-right: 30px;
+} 
+
