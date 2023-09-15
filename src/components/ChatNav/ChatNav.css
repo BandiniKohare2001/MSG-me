@@ -20,6 +20,8 @@ h2{
 .icons{
     height: 40px;
    margin-right: 50px;
+   border-radius: 50%;
+
 }
 .icon-div{
    margin-left: auto;
