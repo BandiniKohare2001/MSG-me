@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+}
+
+.nav-container {
+    background-color: rgb(163, 163, 163);
+    height: 50px;
+    width: 28.5vw;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+.nav-subcontainer{
+  padding-inline:10%;
+  justify-content: space-around;
+  margin-left: 2px;
+
+}
+.img-1 {
+    height: 30px;
+    margin-left: -7x;
+}
+.icon{
+    margin-right: 20px;
+}
+
+    .menu{
+        height: 30px;
+        margin-right: 1%;
+        
+    }
+    .menu-item{
+        display: flex;
+        height: 30px;
+     margin-left: auto;
+        justify-content: end;
+    }
