@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+}
+.chatnav
+{
+height: 60px;
+background-color:  #595959;
+display: flex;
+padding: 5px;
+}
+.profile-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+h2{
+    color: white;
+    margin-left: 20px;
+}
+.icons{
+    height: 40px;
+   margin-right: 50px;
+   border-radius: 50%;
+
+}
+.icon-div{
+   margin-left: auto;
+   padding: 10px;
+}
+.menu-icon{
+    background-color: #595959;
+    
+}

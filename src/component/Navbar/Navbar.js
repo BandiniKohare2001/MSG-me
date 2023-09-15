@@ -9,18 +9,12 @@ import "./Navbar.css";
 export default function Navbar() {
    return (
       <div className="nav-container">
-         <div className="nav-subcontainer">
-            <img src={Imgwhatsapp} alt="searchicon" className="img-1" />
-            <img src={Imgsearch} alt="searchicon" className="img-2" />
-         </div>
-         <div className="btn">
-            <Button text="Log Out" />
-         </div>
-         <div>
-            <img src={Imgmenu} alt="searchicon" className="img-3" />
 
-
-         </div>
+         <img src={Imgwhatsapp} alt="searchicon" className="img-1" />
+         <div className="menu-item">
+            <img src={Imgsearch} alt="searchicon" className="icon" />
+            <img src={Imgmenu} alt="searchicon" className="icon" />
+            </div>
       </div>
    )
 }

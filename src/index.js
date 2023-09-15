@@ -4,14 +4,18 @@ import Navbar from './component/Navbar/Navbar';
 import Button from './component/Button/Button';
 
 
+import ChatScreen from './components/ChatScreen/ChatScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <>
-<div>
-<Navbar/>
-</div>
+<ChatScreen />
+
+
+
 </>
+
+
 );
 
 
