@@ -1,0 +1,11 @@
+.chatsreen{
+    width: 70%;
+    margin-left: auto;
+}
+.message-div{
+    height: 437px;
+    width: 70%;
+}
+.main-container{
+    display: flex;
+}
