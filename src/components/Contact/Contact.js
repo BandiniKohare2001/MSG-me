@@ -3,19 +3,18 @@ import "./Contact.css";
 
 export default function Contact({name, lastseen, userImg}){
     return(
-        <>
+        <><div className="contact-list-div">
             <div className="main-card-container">
-                <div className="img-container">
-                <img src={userImg} className="user-img"/>
 
-                </div>
+                <img src={userImg} className="user-img"/>
+                
 
                 <div>
-                <h2>{name}</h2>
-                <p>{lastseen}</p>
+                <h3 className="text">{name}</h3>
+                <p className="text">{lastseen}</p>
                 </div>
             </div>
-
+            </div>
         </>
     )
 }
