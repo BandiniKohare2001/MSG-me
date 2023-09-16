@@ -1,10 +1,11 @@
 .LoginContainer{
- height: 380px;    
+ height: 450px;    
  width: 400px;
  border: 1px solid black;
  display: block;
  margin-left: auto;
  margin-right: auto;
+ background-color: #faf7f7;
  border-radius: 20px;
 padding-bottom: 40px;
 position: relative;
@@ -13,7 +14,7 @@ margin-top: 50px;
 }
 .heading{
     text-align: center; 
-    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-family: 'Gill Sans';
     font-weight:bolder;  
 }
 .Login{
@@ -34,7 +35,23 @@ margin-top: 50px;
 .Loginbtn{
     display: block;
     margin: 10px auto;
+    background-color: rgb(104, 162, 237);
     margin-top: 40px;
     width: 330px;
     padding: 7px;
+    border: none;
+   height: 35px;
 }
+.forgotpass{
+    margin-left: 100px;
+    text-decoration: none;
+}
+.checkboxtext{
+    margin-left: 40px;
+}
+.nmember{
+    text-align: center;
+
+}
+
+

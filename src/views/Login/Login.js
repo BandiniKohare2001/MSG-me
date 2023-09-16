@@ -1,18 +1,21 @@
 import "./Login.css"
-export default function Login({heading ,Login, btn}){
+import Register from "./../Register/Register"
+import { Link } from "react-router-dom"
+
+export default function Login(){
     return (
         <>
       <form>
        <div className="LoginContainer">
-        <h1 className="heading">{heading}</h1>  
-        <p className="Login">{Login}</p>
+        <h1 className="heading">MSG-me</h1>  
+        <p className="Login">Login</p>
         <label for="username"></label>
-        <input type="text" placeholder="e-mail or username" className="inputBox" required id="username"/>
+        <input type="text" placeholder="e-mail or username" className="inputBox" required id="username" name="username"/>
         <label for="password"></label>
-        <input type="password"  placeholder="password"  className="inputBox" id="password" required/>
-        <button type="submit" className="Loginbtn" >{btn}</button>
-       
-
+        <input type="password"  placeholder="password"  className="inputBox" id="password" required name="username"/>
+      <span><input type="checkbox" name="checkbox" className="checkboxtext"/><label for="checkbox"  >Remamber Me</label> <a href="#" className="forgotpass">forgot password ?</a></span>
+      <button type="submit" className="Loginbtn"  id="login_btn" onClick="saveData()">Sign In</button>
+      <p className="nmember">Not a member ? <Link to="/register">Register</Link></p>
         </div>
         </form>
         </>
