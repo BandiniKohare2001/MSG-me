@@ -8,7 +8,7 @@ export default function  ChatNav({imgUrl, name, title}){
             <img src={imgUrl} alt={title} className="profile-img"/>
             <h2>{name}</h2>
             <div className="icon-div">
-           <img src={Search} alt="search icon" className="icons"/>
+           
            
 
         </div>

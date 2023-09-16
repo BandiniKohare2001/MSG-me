@@ -1,0 +1,23 @@
+.contact-list-div {
+    background-color: rgb(218, 189, 245);
+}
+
+.main-card-container {
+    width: 25vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+}
+
+.main-card-container:hover {
+    background-color: rgb(230, 215, 244);
+    width: 26.7vw;
+}
+.user-img {
+    height: 55px;
+}
+.text{
+    margin-left: 25px;
+   margin-top: 5px;
+}

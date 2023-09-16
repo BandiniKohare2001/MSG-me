@@ -19,5 +19,15 @@
     border-radius: 10px;
     border: none;
     width: 450px;
-   
+}
+button{
+    background-color:  #7171a1;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    border: none;
+    margin-left: 10px;
 }
