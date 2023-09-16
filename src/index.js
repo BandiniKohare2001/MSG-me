@@ -4,10 +4,6 @@ import ChatScreen from './components/ChatScreen/ChatScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<<<<<<< HEAD
- 
- 
-=======
 <>
 <ChatScreen />
 
@@ -16,7 +12,6 @@ root.render(
 </>
 
 
->>>>>>> 884971781edc51cce72d3cd3fb99abb4d979a0d4
 );
 
-
+    
