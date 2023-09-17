@@ -4,7 +4,7 @@
 .chatnav
 {
 height: 60px;
-background-color:  #ababe4;
+background-color: rgb(228, 225, 225);
 display: flex;
 padding: 5px;
 position: fixed;

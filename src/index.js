@@ -1,9 +1,9 @@
 
 import ReactDOM from 'react-dom/client';
-// import ChatScreen from './components/ChatScreen/ChatScreen';
 import Login from './views/Login/Login';
 import Register from './views/Register/Register';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ChatScreen from './components/ChatScreen/ChatScreen';
 
 
 const router = createBrowserRouter([
@@ -12,8 +12,12 @@ const router = createBrowserRouter([
         element: <Register />,
       },
       {
-        path: "/login",
+        path: "/",
         element: <Login />,
+      },
+      {
+        path: "/chatscreen",
+        element: <ChatScreen />,
       },
   ]);
   
