@@ -1,0 +1,29 @@
+.Searchbar-div {
+    display: flex;
+}
+
+.box {
+    margin: 1%;
+    height: 6vh;
+    width: 29vw;
+    /* padding: 7%;
+    padding-inline:26%; */
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(225, 222, 222);
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    outline: none;
+}
+
+.Imgsearch {
+    margin-top: 1.5vh;
+    margin-left: -3.5vw;
+    z-index: 100;
+    background-color: rgb(225, 222, 222);
+
+
+
+}

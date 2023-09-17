@@ -3,6 +3,7 @@ import ChatNav from "../ChatNav/ChatNav"
 import InputBox from "../InputBox/InputBox"
 import Navbar from "../Navbar/Navbar"
 import Contact from "../Contact/Contact";
+import Searchbar from "./../Searchbar/Searchbar";
 
 
 export default function ChatScreen() {
@@ -10,6 +11,7 @@ export default function ChatScreen() {
         <><div className="main-container">
             <div>
                 <Navbar />
+                <Searchbar />
                 <Contact userImg={"https://avatars.githubusercontent.com/u/139730268?v=4"} name="sejal kakade" lastseen="10:23pm" />
                 <Contact userImg="https://avatars.githubusercontent.com/u/124554439?s=96&v=4" name="Bandini Kohare" lastseen="10:23pm" />
                 <Contact userImg={"https://avatars.githubusercontent.com/u/63898276?v=4"} name="Harshvardhan khairnar" lastseen="10:23pm" />

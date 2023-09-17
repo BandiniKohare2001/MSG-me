@@ -1,23 +1,19 @@
-
-import Imgsearch from "./../Navbar/Navbar-Image/search.png";
+import Imgwhatsapp from "./../Navbar/Navbar-Image/whatsapp.png";
 import Imgmenu from "./../Navbar/Navbar-Image/menu.png";
 
 import "./Navbar.css";
 
 export default function Navbar() {
-   return (
-      <div className="nav-container">
+    return (
+        <div className="nav-container">
 
-       <h1>MSG-me</h1>
-         <div className="menu-item">
-            <img src={Imgsearch} alt="searchicon" className="icon" />
-            <img src={Imgmenu} alt="searchicon" className="icon" />
+            <img src={Imgwhatsapp} alt="searchicon" className="img-1" />
+            <div className="menu-item">
+                <img src={Imgmenu} alt="searchicon" className="icon" />
             </div>
-            <div className="searchbar">
-                <input class="inputbox"></input>
-                <img src={Imgsearch} alt="searchicon" className="searchicon" />
-            </div>
-        </div>
+</div>
+
+
 
     )
 }
